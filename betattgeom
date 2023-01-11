@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/classroom/favicon.png">
+<title>Classes</title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-251701730-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-251701730-1');
+</script>
+
+</head>
+
+<style>
+* {box-sizing: border-box}
+   body {
+   background-color:rgba(87, 87, 87);
+
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+  
+  
+}     
+/*tabs start-------------*/
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  border-style: solid;
+  border-color: rgb(255, 0, 0);
+  margin-bottom: 10px
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: 3px;
+  outline: 3px;
+  
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+<!--
+#London {border-style: solid; border-color: rgb(255, 0, 0); background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+-->
+.tablink {
+  background-color: rgb(10, 10, 10);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+/*tabs end-------------*/
+.servermain {
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 20px;
+  width: 90px;
+  height: 90px;
+  padding:5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+   }
+   
+a {
+color:white;
+}
+
+img {
+  width: 50px;
+  border-radius: 10px;
+  padding: 0px 0;
+}
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+</style>
+
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('London', this, 'red')">Pr0xy links</button>
+<button class="tablink" onclick="openPage('Paris', this, 'green')" id="defaultOpen">games</button>
+<button class="tablink" onclick="openPage('T.V/Movies', this, 'red')">T.V/Movies</button>
+<button class="tablink" onclick="openPage('submisson form', this, 'blue')">submisson form</button>
+<button class="tablink" onclick="openPage('Tokyo', this, 'orange')">other links</button>  
+
+
+<div id="London" class="tabcontent">
+
+<div style=" float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://09881tbhspncbhbssqzccq.on.drv.tw/webhosting/math%20help/mathhelpmain">
+    <img src=https://i.imgur.com/wGMW4ga.png" >
+    <b style="font-size: 15px;"><FONT COLOR="white">Server 1</b>
+  </a>
+</div>
+
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://09881tbhspncbhbssqzccq.on.drv.tw/webhosting/math%20help/mathhelp1">
+    <img src=https://i.imgur.com/wGMW4ga.png" >
+    <b style="font-size: 15px;"><FONT COLOR="white">Server 2</b>
+  </a>
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://09881tbhspncbhbssqzccq.on.drv.tw/webhosting/math%20help/mathhelp2">
+    <img src=https://i.imgur.com/wGMW4ga.png" >
+    <b style="font-size: 15px;"><FONT COLOR="white">Server 3</b>
+  </a>
+  
+</div>
+ <div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://escapeless-nozzles.000webhostapp.com/hypertabs">
+    <img src=https://i.imgur.com/E3Dntze.png" >
+    <b style="font-size: 10px;"><FONT COLOR="white">Hypertabs</b>
+  </a>
+  
+  
+</div>
+ 
+ <div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://bravoedu.live/">
+    <img src=https://i.imgur.com/sGL22Al.png" >
+    <b style="font-size: 10px;"><FONT COLOR="white">terbium</b>
+  </a>
+  
+</div>
+ 
+ 
+</div>
+
+<div id="T.V/Movies" class="tabcontent">
+
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://i.imgur.com/13PR5Af.png">
+    <img src=https://i.imgur.com/13PR5Af.png" >
+    <b style="font-size:10px; width: 115px; height: 90px;"><FONT COLOR="white">Movies and TV shows</b>
+  </a>
+  
+</div>
+
+  <a href="https://www.foxsports.com/soccer/2022-fifa-world-cup">WORLD CUP    </a>
+
+
+<p/>
+<a href="https://drive.google.com/file/d/1eeIuxtVNmQYkpAFEVISNFCckbNrS8TYD/view?usp=sharing">how to reset 60 min timer</a>
+<p/>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+
+<a href="https://escapeless-nozzles.000webhostapp.com/betattgeom" download>
+  <img src="/images/myw3schoolsimage.jpg" alt="Bpsw download">
+  
+</a>
+</div>
+
+<div id="submisson form" class="tabcontent">
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdI44B6aNRkOnAMeOjgz7GuJ2gBXY30tvxHTQK4mL6JJBZtJg/viewform" height="600" width="500" title="Iframe Example"></iframe>
+  
+</a>
+</div>
+
+<div id="Paris" class="tabcontent">
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/tunnelrush">
+    <img src=https://i.imgur.com/naOzy04.png" >
+    <b style="font-size: 10px;"><FONT COLOR="white">tunnel rush</b>
+  </a>
+  
+</div>
+<!--    -----------------------MAIN COPPY AND PASTE ------------------------------
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="">
+    <img src=" >
+    <b style="font-size: 10px;"><FONT COLOR="white"></b>
+  </a>
+  
+</div>
+-->
+
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/2048">
+    <img src=https://i.imgur.com/2nVf0yt.png" >
+    <b style="font-size: 10px;"><FONT COLOR="white">2048</b>
+  </a>
+  
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/doodle-jump/index.html">
+    <img src=https://i.imgur.com/kz5RcJn.png" >
+    <b style="font-size: 10px;"><FONT COLOR="white">doodle-jump</b>
+  </a>
+  
+</div>
+
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/subway-surfers">
+    <img src="https://i.imgur.com/7PHrrNb.png" >
+    <b style="font-size: 9px;"><FONT COLOR="white">Subway Surfers</b>
+  </a>
+  
+</div>
+
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/motox3m">
+    <img src=https://i.imgur.com/ge0RANg.jpg" >
+    <b style="font-size: 10px;"><FONT COLOR="white">motox3m</b>
+  </a>
+  
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/motox3mPoolParty">
+    <img src=https://i.imgur.com/74TZ5qZ.jpg" >
+    <b style="font-size: 7px;"><FONT COLOR="white">motox3m PoolParty</b>
+  </a>
+  
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="slope">
+    <img src=https://i.imgur.com/gN3waQH.png" >
+    <b style="font-size: 10px;"><FONT COLOR="white">Slope</b>
+  </a>
+  
+</div>
+
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://www.khanacademy.org/computer-programming/helix-jump-official-release/6197406364696576/embedded">
+    <img src=https://i.imgur.com/uItrZlL.png" >
+    <b style="font-size: 10px;"><FONT COLOR="white">Helix Jump</b>
+  </a>
+  
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://www.khanacademy.org/computer-programming/knife-hit/6548251661713408/embedded">
+    <img src=https://i.imgur.com/7YzpB6F.png" >
+    <b style="font-size: 10px;"><FONT COLOR="white">Knife hit</b>
+  </a>
+  
+</div>
+
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://escapeless-nozzles.000webhostapp.com/8ball-master/index.html">
+    <img src=https://i.imgur.com/bwDdalA.png" >
+    <b style="font-size: 15px;"><FONT COLOR="white">8-ball</b>
+  </a>
+  
+</div>
+
+
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://jakwhegf.github.io/iuertjklngkkdd/">
+    <img src=https://i.imgur.com/tKQoM8h.png" >
+    <b style="font-size: 10px;"><FONT COLOR="white">RETRO BOWL</b>
+  </a>
+  
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://eaglercraft-serverdgrsfdg.kasonlamb.repl.co/">
+    <img src=https://i.imgur.com/OJzAq16.jpg" >
+    <b style="font-size: 10px;"><FONT COLOR="white">Minecraft</b>
+  </a>
+  </div>
+  <div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="https://escapeless-nozzles.000webhostapp.com/earntodie2">
+    <img src=https://i.imgur.com/KZ1l6xO.png" >
+    <b style="font-size: 10px;"><FONT COLOR="white">Earn to die2</b>
+  </a>
+  
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/google-snake">
+    <img src=https://i.imgur.com/BSv79ye.jpg" >
+    <b style="font-size: 10px;"><FONT COLOR="white">Google Snake</b>
+  </a>
+  
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/basketball-stars">
+    <img src=https://i.imgur.com/7AFF3l6.png" >
+    <b style="font-size: 9px;"><FONT COLOR="white">Basketball Stars</b>
+  </a>
+  <!--
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/vex3">
+    <img src=https://i.imgur.com/1F5Bx0A.png" >
+    <b style="font-size: 9px;"><FONT COLOR="white">Vex3</b>
+  </a>
+  
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/vex4">
+    <img src=https://i.imgur.com/Sj7Ldkj.png" >
+    <b style="font-size: 9px;"><FONT COLOR="white">Vex4</b>
+  </a>
+  
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/Vex5">
+    <img src=https://i.imgur.com/EfPNj6j.jpg" >
+    <b style="font-size: 10px;"><FONT COLOR="white">Vex5</b>
+  </a>
+  
+</div>
+
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/Vex6">
+    <img src="https://i.imgur.com/hLC84v2.jpg" >
+    <b style="font-size: 9px;"><FONT COLOR="white">Vex6</b>
+  </a>
+  
+  
+  
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/Vex7">
+    <img src="https://i.imgur.com/ySfH9dc.png" >
+    <b style="font-size: 9px;"><FONT COLOR="white">Vex7</b>
+  </a>
+</div>
+-->
+</p>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/fireboywatergirlforest">
+    <img src="https://i.imgur.com/QFw8tbK.jpg" >
+    <b style="font-size: 9px;"><FONT COLOR="white">FireBoyWaterGirl</b>
+  </a>
+</div>
+<div style="float:left; background-color:rgb(68, 66, 94);" class="servermain" >
+  <a href="/justfall">
+    <img src=https://i.imgur.com/29ChGKP.jpg" >
+    <b style="font-size: 10px;"><FONT COLOR="white">Just fall</b>
+  </a>
+  
+</div>
+<a href="https://www.khanacademy.org/computer-programming/spin-off-of-tayyabrs-big-mansion/5141876220936192">khanacademyMinecraft </a>
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   <script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
